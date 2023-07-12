@@ -113,6 +113,7 @@
 .btn1:hover{
     color: orange;
     background-color: white;
+    box-shadow: 2px 2px 2px goldenrod;
 }
 
 .perfect_offer_main{
@@ -147,4 +148,62 @@
 .r_box1 > p{
     font-size: 15px;
     color: gray;
+}
+
+.history_container{
+    height: 80vh;
+    width: 100vw;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.history_write{
+    height: 400px;
+    width: 500px;
+    margin-top: 100px;
+    /* background-color: brown; */
+}
+
+.history_write > h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.history_write > h6{
+    font-size: 20px;
+    margin-bottom: 13px;
+    color: orange;
+}
+
+.history_write > p{
+    font-size: 15px;
+    color: gray;
+}
+
+.history_picture{
+    height: 100%;
+    width: 700px;
+    /* background-color: red; */
+    position: relative;
+}
+
+.history_picture > img{
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.img3{
+    top: 100px;
+    left: 50px;
+    z-index: 3;
+}
+
+.img4{
+    bottom: 20px;
+    left: 330px;
+    z-index: 1;
 }
