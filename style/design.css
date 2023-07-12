@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'EB Garamond', serif;
+}
+
+.head_container{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(45deg,#000,#0000009e);
+    color: white;
+}
+.top_part{
+    width: 100vw;
+    height: 10vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo1{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    /* box-shadow: 2px 2px 2px white; */
+}
+
+.top_right{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top_ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-left: 12px; */
+    list-style: none;
+    text-align: center;
+}
+
+.top_ul > li{
+    margin-right: 20px;
+}
+
+.top_icon img{
+    height: 40px;
+    width: 40px;
+    margin-left: 15px;
+    /* background-color: #000; */
+}
+
+.top_ul > li:hover{
+    color: goldenrod;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.top_icon img:hover{
+    cursor: pointer;
+}
+
+.banner_part{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner_h3{
+    font-size: 30px;
+    margin-bottom: 17px;
+}
+
+.s1{
+    color: orange;
+
+}
+.banner_h1{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.main_para{
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+.btn1{
+    height: 50px;
+    width: 200px;
+    font-size: 15px;
+    background-color: orange;
+    margin-left: 20px;
+    border: 0px;
+    border-radius: 15px;
+    color: white;
+}
+
+.bcg > img{
+    height: 600px;
+    width: 600px;
+    border: 0px;
+    border-radius: 15px;
+}
