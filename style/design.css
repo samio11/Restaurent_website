@@ -109,3 +109,42 @@
     border: 0px;
     border-radius: 15px;
 }
+
+.btn1:hover{
+    color: orange;
+    background-color: white;
+}
+
+.perfect_offer_main{
+    height: 70vh;
+    width: 100vw;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.resepi_img{
+    width: 100vw;
+    height: 55vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding-left: 20px; */
+}
+
+.r_box1 > img{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.r_box1 > h5{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.r_box1 > p{
+    font-size: 15px;
+    color: gray;
+}
