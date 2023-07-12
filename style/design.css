@@ -207,3 +207,39 @@
     left: 330px;
     z-index: 1;
 }
+
+.intro_main_box{
+    height: 50vh;
+    width: 100vw;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_box{
+    height: 37vh;
+    width: 1300px;
+    /* background-color: azure; */
+    background-image: url('../Images/banner.jpg'),linear-gradient(45deg,#000,#00000093);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.img_box > h4{
+    margin-top: 30px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.s2{
+    color: orange;
+}
+
+.img_box > h2{
+    font-size: 40px;
+}
