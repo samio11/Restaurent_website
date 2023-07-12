@@ -268,7 +268,7 @@
 .chef_pic_box{
     height: 60vh;
     width: 100vw;
-    background-color: azure;
+    /* background-color: azure; */
    
 }
 
@@ -293,4 +293,34 @@
     height: 350px;
     width: 350px;
     border-radius: 15px;
+}
+
+.footer_box{
+    height: 50vh;
+    width: 100vw;
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.f1{
+    font-size: 35px;
+    font-family: 'Zilla Slab', serif;
+    margin-bottom: 15px;
+    color: orange;
+}
+
+.p1{
+    font-family: 'Zilla Slab', serif;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+input[type="email"]{
+    width: 250px;
+    height: 30px;
+    padding-left: 20px;
 }
