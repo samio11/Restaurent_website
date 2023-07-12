@@ -247,7 +247,7 @@
 .btn_black{
     height: 50px;
     width: 200px;
-    background-color: grey;
+    background-color: orange;
     color: white;
     border: 0px;
     border-radius: 10px;
@@ -256,4 +256,41 @@
 .btn_black:hover{
     background-color: black;
     color: white;
+}
+
+.chef_container{
+    height: 80vh;
+    width: 100vw;
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+.chef_pic_box{
+    height: 60vh;
+    width: 100vw;
+    background-color: azure;
+   
+}
+
+.chef_box1{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.i_box{
+    height: 420px;
+    width: 420px;
+    background-color: white;
+    border-radius: 10px;
+    /* box-shadow: 2px 2px 2px black; */
+    
+}
+
+.i_box > img{
+    height: 350px;
+    width: 350px;
+    border-radius: 15px;
 }
